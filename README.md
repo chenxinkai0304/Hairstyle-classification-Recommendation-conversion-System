@@ -8,16 +8,27 @@
 
 ## 📁 請將下載的檔案依照以下結構放置：
 Hairstyle Recommendation System/
+
 ├── pretrained_models/
+
 │ ├── bald_proxy.pt
+
 │ ├── ffhq.pt
+
 │ ├── seg.pth
+
 │ ├── sketch_proxy.pt
+
 │ ├── shape_predictor_68_face_landmarks.dat
+
 │ └── ffhq_PCA.npz
+
 ├── best_model.pth
+
 ├── hybrid_recommender.pth
+
 ├── recommender_model_advanced.pth
+
 
 # 安裝環境
 pip install -r requirements.txt
