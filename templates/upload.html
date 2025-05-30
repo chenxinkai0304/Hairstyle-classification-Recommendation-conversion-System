@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <title>髮型轉換系統</title>
+</head>
+<body>
+    <h1>上傳圖片與髮型條件</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>原始照片：</label><br>
+        <input type="file" name="photo" required><br><br>
+
+        <label>參考髮型圖片（選擇圖片 或 輸入描述）：</label><br>
+        <input type="file" name="ref"><br><br>
+
+        <label>或文字描述：</label><br>
+        <input type="text" name="text_prompt"><br><br>
+
+        <button type="submit">開始生成</button>
+    </form>
+</body>
+</html>
+
+
