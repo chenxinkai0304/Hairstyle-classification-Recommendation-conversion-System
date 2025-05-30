@@ -1,12 +1,14 @@
+本專案為基於臉型辨識與深度學習的虛擬髮型推薦系統。使用者可上傳自拍照，系統將預測臉型、推薦適合髮型，並透過模型進行視覺合成。
+
 請先下載模型與必要檔案，並依照下方結構放入對應資料夾。
 
-### 1️⃣ 雲端載點
+### 雲端載點
 
 🔗 [下載連結（Google Drive）](https://drive.google.com/drive/folders/1Q-gRmi4l2JtdDCf4RZIDDP-RIqlsEKFH?usp=sharing)
 
 ---
 
-## 📁 請將下載的檔案依照以下結構放置：
+## 請將下載的檔案依照以下結構放置：
 Hairstyle Recommendation System/
 
 ├── pretrained_models/
